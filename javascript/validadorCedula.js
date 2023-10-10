@@ -3,7 +3,7 @@ function iniciar() {
     cedula.addEventListener("input", validarCedula, false);
     document.validador.addEventListener("invalid",validacion, true);
     document.validador.addEventListener("input", controlar,false);
-    document.getElementById("validar").addEventListener("click",enviar, false);
+    document.getElementById("enviar").addEventListener("click",enviar, false);
 }
 function validacion(e){
     var elemento=e.target;
