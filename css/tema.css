@@ -1,0 +1,63 @@
+:root {
+    --color-fondo: rgb(1, 28, 63);
+    --color-letra: rgb(248, 247, 247);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--color-fondo);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+main {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    position: absolute;
+    top: 7em;
+}
+hgroup {
+    text-align: center;
+    color: var(--color-fondo);
+}
+section {
+    background-color: var(--color-letra);
+    width: 50%;
+    padding: 4em;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 6px 6px 5px rgb(0, 0, 0);
+}
+form {
+    margin: 2em 0;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-color: var(--color-fondo);
+}
+form ul li {
+    list-style: none;
+}
+.inputFormulario {
+    padding: 5px;
+    margin: 1.5em;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 3px 3px 3px rgb(177, 175, 175);
+}
+.submit {
+    padding: 0.5em 1em;
+    width: 150px;
+    background-color: var(--color-fondo);
+    color: var(--color-letra);
+    border-style: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.submit:hover {
+    background-color: rgb(5, 156, 68);
+}
